@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+@media only screen and (min-width: 375px) {
+
+body {
+  background: hsl(257, 40%, 49%);
+}
+
+.main-background-images {
+  max-width: 100%;
+}
+
+.background-image-mobile {
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  object-fit: fill;
+}
+
+.background-image-desktop {
+  display: none;
+}
+
+.logo-image {
+  position: relative;
+  display: block;
+  padding: 5% 5%;
+  width: 35%;
+}
+
+.illustration-mockups-image {
+  max-height: 100%;
+  width: 80%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding-top: 12%;
+}
+
+.sub-header-container {
+  padding: 20% 10% 8% 10%;
+  text-align: center;
+}
+
+.sub-header {
+ color: white;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 600;
+}
+
+.paragraph {
+  text-align: center;
+  padding: 0% 9% 5% 9%;
+  color: white;
+  font-family:'Poppins', sans-serif;
+  font-size: 15px;
+  word-spacing: 1px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+
+
+.register-button {
+  background: white;
+  color: hsl(257, 40%, 49%);
+  display: block;
+  margin: 0 auto;
+  padding: 5% 5%;
+  border-radius: 50px;
+  width: 60%;
+  box-shadow: 3px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+}
+ 
+
+.attribution { 
+  font-size: 11px; text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 4% 0%; 
+}
+
+.attribution a { 
+  color: white; 
+}
