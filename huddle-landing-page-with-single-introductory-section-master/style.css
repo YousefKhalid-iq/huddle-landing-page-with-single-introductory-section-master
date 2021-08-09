@@ -69,8 +69,6 @@
   font-weight: 400;
 }
 
-
-
 .register-button {
   background: white;
   color: hsl(257, 40%, 49%);
@@ -93,7 +91,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  }
+}
 
 .social-links a {
   height: 30px;
@@ -108,7 +106,6 @@
   margin: 0 auto;
   display: block;
   padding: 15%;
-
 }
 
 .social-links a img:hover {
@@ -128,10 +125,6 @@ body {
   display: flex;
   flex-direction: column;
 
-}
-
-.main-background-images {
-  max-width: 100%;
 }
 
 .background-image-mobile {
@@ -184,8 +177,6 @@ body {
   font-weight: 400;
 }
 
-
-
 .register-button {
   background: white;
   color: hsl(257, 40%, 49%);
@@ -208,7 +199,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  }
+}
 
 .social-links a {
   height: 30px;
@@ -228,20 +219,81 @@ body {
   background: hsl(300, 69%, 71%);
   border-color: hsl(300, 69%, 71%);
   color: hsl(300, 69%, 71%);
- 
 }
 
 }
- 
+
+@media only screen and (min-width: 1440px) {
+
+  .background-image-desktop {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .background-image-mobile {
+    display: none;
+  }
+
+  .logo-flex-container {
+    display: flex;
+    width: 100%;
+    max-width: 70%;
+  }
+
+  .flex-container-content {
+    display: flex;
+  }
+
+  .flex-container-content-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 28%;
+    padding-top: 3%;
+
+  }
+
+  .sub-header {
+    text-align: left;
+    font-size: 32px;
+    width: 120%;
+  }
+
+  .paragraph {
+    text-align: left;
+    width: 120%;
+    font-size: 18px;
+  }
+
+  .button-container {
+    width: 100%;
+    padding-top: 10%;
+  }
+
+  .social-links {
+   padding-left: 80%;
+  }
+
+  .social-links a {
+    
+  }
+
+}
 
 .attribution { 
-
   font-size: 11px; text-align: center;
   font-family: 'Poppins', sans-serif;
   padding: 4% 0%; 
+  padding-top: 10%;
 
 }
 
 .attribution a { 
   color: white; 
+}
+
+.attribution a:hover {
+  color: hsl(300, 69%, 71%);
 }
